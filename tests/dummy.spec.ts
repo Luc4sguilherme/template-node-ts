@@ -1,5 +1,5 @@
-import jest from 'jest'
+import { test, expect } from '@jest/globals';
 
-test("unit test", () => {
-  expect(1).toBe(1)
-})
+test('unit test', () => {
+  expect(1).toBe(1);
+});
